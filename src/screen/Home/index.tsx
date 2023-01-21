@@ -8,7 +8,7 @@ import {
   Alert,
 } from "react-native";
 import { styles } from "../Home/styles";
-import { Participant } from "./components/Participant";
+import { Participant } from "../../components/Participant";
 
 export function Home() {
   const [participants, setParticipants] = useState<string[]>([]);
